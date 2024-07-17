@@ -19,3 +19,13 @@ text-align: center;
 padding: 10px 16px;
 text-decoration: none;
 }
+img{
+    width: 1904px;
+    height: 750px;
+}
+.a1{
+    position: absolute;
+    left: 850px;
+    bottom: 600px;
+    color: aliceblue;
+}
