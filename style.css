@@ -1,4 +1,4 @@
-
+/* first page */
 ul{
     list-style-type: none;
     margin: 0;
@@ -80,3 +80,68 @@ img{
   border-radius: 15px;
 }
 .b2:hover{ background-color:#2997ff;}
+
+/* second page */
+
+.sd1>img{
+    width: 1904px;
+    height: 500px;
+    background-color: antiquewhite;
+}
+.sd1{
+    position: absolute;
+    left: 700px;
+    top: 850px;
+    color: rgb(0, 0, 0);
+    font-size: 28px;
+    
+}
+.b3{
+    display: inline-block;
+  padding: 10px 9px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color:rgb(227, 230, 235);
+  background-color: #2997ff;
+  border:1px solid rgb(17, 93, 206);
+  border-radius: 15px;
+}
+  .b4{
+    display: inline-block;
+  padding: 10px 9px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color:#2997ff;
+  background-color:#e4ecf3 ;
+  border:1px solid rgb(17, 93, 206);
+  border-radius: 15px;
+}
+  .b4:hover{
+     background-color:#2997ff;
+    }
+    /* third page */
+    /* fourth page */
+    .d4{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        background-color: lightblue;
+    }
+    .sub1{
+        display: flex;
+        width: 40%;
+
+        
+    }
+    .sub2{
+        display: flex;
+     width: 40%;
+    }
+
+
