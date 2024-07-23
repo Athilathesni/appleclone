@@ -7,6 +7,8 @@ ul{
     background-color: rgb(71, 67, 67);
     display: flex;
     justify-content: center;
+    position: -webkit-sticky;
+    position: sticky;
 
 }
 li{
@@ -18,18 +20,9 @@ color: white;
 text-align: center;
 padding: 10px 16px;
 text-decoration: none;
-font-size: 19px;
+font-size: 10px;
 }
-.h2{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: auto;
-    background-color: rgb(19, 16, 16);
-    top: 0;
-    text-align: center;
-    font-size: small;
-}
+
 li{
     float: left;
 }
@@ -79,7 +72,8 @@ img{
   border:1px solid rgb(17, 93, 206);
   border-radius: 15px;
 }
-.b2:hover{ background-color:#2997ff;}
+.b2:hover{ background-color:#5799d6;
+color: black;}
 
 /* second page */
 
@@ -123,7 +117,8 @@ img{
   border-radius: 15px;
 }
   .b4:hover{
-     background-color:#2997ff;
+     background-color:#427fb8;
+     color: #020303;
     }
     /* third page */
     /* fourth page */
@@ -330,3 +325,59 @@ img{
         border:1px solid rgb(46, 65, 240);
         border-radius: 18px;   
     }
+
+    /* 7th page */
+
+    .d7{
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto auto auto auto;
+        background-color: rgb(241, 239, 235);
+        overflow-x: scroll;
+    }
+    .sub7>img{
+        height: 850px;
+        width: 1200px; 
+    }
+    .sub8>img{
+        height: 850px;
+        width: 1200px;
+    }
+    .sub9>img{
+        height: 850px;
+        width: 1200px;
+    }
+    .sub10>img{
+        height: 850px;
+        width: 1200px;
+    }
+    .sub11>img{
+        height: 850px;
+        width: 1200px;
+    }
+    .sub12>img{
+        height: 850px;
+        width: 1200px;
+    }
+    .sub13>img{
+        height: 850px;
+        width: 1200px;
+    }
+    .sub14>img{
+        height: 850px;
+        width: 1200px;
+    }
+    .sub15>img{
+        height: 850px;
+        width: 1200px;
+    }
+/* 8th page */
+.d8{
+    background-color: antiquewhite;
+    padding: 8px;
+    height: 700px;
+}
+.y2{
+    text-align: center;
+    font-size: small;
+    color: rgb(37, 36, 36);
+}
